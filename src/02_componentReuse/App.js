@@ -4,7 +4,7 @@ import './App.css';
 class WelcomeComponnant extends React.Component{
   render(){
     return (
-      <h1>Welcome to React</h1>
+      <h2 id='head1'>Welcome to React</h2>
     )
   }
 }
@@ -12,11 +12,11 @@ class WelcomeComponnant extends React.Component{
 export default class App extends React.Component{
  render(){
   return (
-    <React.Fragment>
+    <div id='wel1'>
       <WelcomeComponnant/>
       <WelcomeComponnant/>
       <WelcomeComponnant/>
-    </React.Fragment>
+    </div>
   )
 
  }
