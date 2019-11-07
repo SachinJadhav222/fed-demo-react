@@ -8,7 +8,9 @@ import * as serviceWorker from './serviceWorker';
 //import App from './02_componentReuse/App';
 //import App from './03_properties/App';
 //import App from './04_events/App';
- import App from './06_ref/App';
+//import App from './05_states/App'
+// import App from './06_ref/App';
+import App from './07_propTypes/App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
