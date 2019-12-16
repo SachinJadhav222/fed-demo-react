@@ -6,6 +6,7 @@ export default class App extends React.Component {
 	constructor(props) {
 		super(props);
 		alert("constructor called");
+		
 	}
 
 	UNSAFE_componentWillMount() { // This is DEPRECATED.
@@ -20,6 +21,7 @@ export default class App extends React.Component {
 	componentWillUnmount() {
 		alert("component will unmount");
 	}
+	
 
 	render() {
 		console.log("Inside render method ...");
