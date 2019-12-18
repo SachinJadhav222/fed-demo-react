@@ -1,17 +1,9 @@
-import React from 'react'
+import React from "react";
 
-  const Comment =({author,children})=>(
+const Comment = ({ author, children }) => (
   <tr>
-      <td>{author}</td>
-      <td>{children}</td>
-      
-      </tr>
-  ) 
-  export default Comment;  
-
-    
-  
-
-
-
-
+    <td>{author}</td>
+    <td>{children}</td>
+  </tr>
+);
+export default Comment;

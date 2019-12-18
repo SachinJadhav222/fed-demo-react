@@ -3,7 +3,7 @@ export default {
   [
     {
       "id": 1,
-      "author": "RamSEETA",
+      "author": "RamSEETA1",
       "text": "React is simple"
     },
     {

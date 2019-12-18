@@ -1,18 +1,17 @@
-import React from 'react';
-import Comment from './Comment';
-import Profile from './Profile';
+import React from "react";
+import Comment from "./Comment";
+import Profile from "./Profile";
 
 export default class CommentList extends React.Component {
-  render () {
+  render() {
     var commentNodes = this.props.comments.map(comment => (
-        <Comment key={comment.id} author={comment.author} >
-          {comment.text}
-        </Comment>
+      <Comment key={comment.id} author={comment.author}>
+        {comment.text}
+      </Comment>
     ));
 
-    let profileNode =this.props.profile.map(profile=>(
-       <profileNode name={profile.name}>
-       </profileNode>
+    let profileNode = this.props.profile.map(profile => (
+      <profileNode name={profile.name}></profileNode>
     ));
     return (
       <>
@@ -24,12 +23,8 @@ export default class CommentList extends React.Component {
               <th>Profile</th>
             </tr>
           </thead>
-          <tbody>
-            {commentNodes}
-          </tbody>
-          <tbody>
-            {profileNode}
-          </tbody>
+          <tbody>{commentNodes}</tbody>
+          <tbody>{profileNode}</tbody>
         </table>
       </>
     );

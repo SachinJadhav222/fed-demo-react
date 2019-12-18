@@ -1,1 +1,1 @@
-json-server -p 4000 -w db.json
+json-server -p 4000 -d 3000 -w src/fed/09a_composableComponants/db.json

@@ -5,6 +5,7 @@ export default {
         "id": 1,
         "author": "SOHAM",
         "text": "React is simple"
+        
       },
       {
         "id": 2,

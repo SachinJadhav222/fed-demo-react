@@ -1,7 +1,7 @@
 import CommentData from './CommentData';
 
 export default class CommentApi {
-    static getAllComment(){
+    static getAllComments(){
         return CommentData.comments
     }
 }

@@ -1,13 +1,14 @@
 import React from 'react';
+import WelcomeComponnant from './WelcomeComponant'
 import './App.css';
 
-class WelcomeComponnant extends React.Component{
-  render(){
-    return (
-      <h2 id='head1'>Welcome to React</h2>
-    )
-  }
-}
+// class WelcomeComponnant extends React.Component{
+//   render(){
+//     return (
+//       <h2 id='head1'>Welcome to React</h2>
+//     )
+//   }
+// }
 
 export default class App extends React.Component{
  render(){

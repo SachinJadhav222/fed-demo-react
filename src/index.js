@@ -15,11 +15,17 @@ import * as serviceWorker from './serviceWorker';
 //import App from './08a_componentLifeCycle/App'
 //import App from './fed/09_composableComponents/App'
 //import App from './fed/09a_composableComponents/App'
+//import App from './fed/10_hoc/App'
+//import App from './fed/11_renderProps/App'
+//import App from './fed/12_formHandling/App'
 
 //import App from './practice/08_Pra_componantlifeCycle/App'
 //import App from './practice/08a_Pra_componantLifeCycle/App'
 //import App from './practice/09_Pra_composableComponants/App'
-import App from './practice/09a_Pra_composableComponantsJSON/App'
+//import App from './practice/09a_Pra_composableComponantsJSON/App'
+//import App from './practice/10_hoc/App'
+//import App from './practice/11_renderProps/App'
+import App from './practice/12_formHandling/App'
 
 
 
