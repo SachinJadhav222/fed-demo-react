@@ -20,7 +20,10 @@ import * as serviceWorker from "./serviceWorker";
 //import App from './fed/12_formHandling/App'
 //import App from './fed/13_reactrouter/App'
 
-
+//import App from './practice/01_welcome/App'
+//import App from './practice/02_componantReuse/App'
+//import App from './practice/03_properties/App'
+import App from './practice/04_events/App'
 //import App from './practice/08_Pra_componantlifeCycle/App'
 //import App from './practice/08a_Pra_componantLifeCycle/App'
 //import App from './practice/09_Pra_composableComponants/App'
@@ -28,7 +31,7 @@ import * as serviceWorker from "./serviceWorker";
 //import App from './practice/10_hoc/App'
 //import App from './practice/11_renderProps/App'
 //import App from "./practice/12_formHandling/App";
-import App from './practice/13_reactRouter/App'
+//import App from './practice/13_reactRouter/App'
 
 
 ReactDOM.render(<App />, document.getElementById("root"));

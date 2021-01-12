@@ -1,0 +1,9 @@
+h1{
+    columns: rgba(136, 255, 0, 0.76);
+    background-color: rgb(255, 0, 43);
+}
+
+#welcome {
+    columns: red;
+    background-color: aqua;
+} 
